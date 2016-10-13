@@ -1,0 +1,1 @@
+This demonstrates how to use webpack and the npm aws-sdk for isomorphic calls to AWS lambda. Super convenient for serverless architecture that needs to make calls to an API that isn't isomorphically compatible, or with keys that aren't safely exposed to the client.
