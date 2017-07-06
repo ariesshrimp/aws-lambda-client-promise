@@ -3,3 +3,6 @@ This demonstrates how to use webpack and the npm aws-sdk for isomorphic calls to
 Basically: you give the lambda calling code some configuration info for your aws account. This involves doing some annoying IAM stuff so that people don't steal your API keys and conduct DDOS attacks. Then you promise wrap the aws-sdk lambda calls. Finally, you export a function that accepts a generic payload to send to your lambda, or parameters that you convert to a valid payload, and return the promise you wrote.
 
 Now your code can call lambda from the client or server without further ado!
+
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/joefraley/aws-lambda-client-promise.svg)](https://greenkeeper.io/)
